@@ -1,0 +1,134 @@
+/* Base */
+body {
+  background: #fff;
+  margin: 0;
+}
+
+.cv {
+  border: 5px solid #000;
+  padding: 28px 34px;
+  margin: 18px;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+/* Título principal */
+.cv-title {
+  text-align: center;
+  margin: 18px 0 22px 0;
+  letter-spacing: 1px;
+}
+
+/* Títulos de sección */
+.section-title {
+  padding-bottom: 6px;
+  margin: 22px 0 12px 0;
+}
+
+/* Información personal */
+.data_personal::after {
+  content: "";
+  display: block;
+  clear: both; /* para que el float de la foto no dañe el layout */
+}
+
+.profile-photo {
+  float: right;
+  width: 115px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #000;
+  margin: 6px 20px 10px 22px;
+}
+
+.name {
+  margin: 0;
+}
+
+.tagline {
+  margin: 8px 0 12px 0;
+}
+
+.info-line {
+  margin: 6px 0;
+  line-height: 1.35;
+}
+
+/* Perfil */
+.perfil-text {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.perfil-extra {
+  margin: 8px 0;
+  line-height: 1.45;
+}
+
+/* Educación */
+.edu-item {
+  margin: 0 0 12px 0;
+}
+
+.edu-item-last {
+  margin: 0 0 6px 0;
+}
+
+.edu-degree {
+  margin: 0;
+}
+
+.edu-place {
+  margin: 4px 0;
+  line-height: 1.35;
+}
+
+.edu-year {
+  margin: 0;
+}
+
+/* Bloques tipo lista (Cursos / Referencias) */
+.list-block {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.course-line,
+.ref-line {
+  margin: 4px 0;
+}
+
+/* Experiencia */
+.exp-item {
+  margin-bottom: 18px;
+}
+
+.exp-item-last {
+  margin-bottom: 10px;
+}
+
+.job-title {
+  margin: 0 0 6px 0;
+}
+
+.job-date {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.label {
+  margin: 8px 0 6px 0;
+}
+
+.functions-list {
+  margin-left: 12px;
+  line-height: 1.45;
+}
+
+.function-line {
+  margin: 4px 0;
+}
+
+.job-note {
+  margin: 8px 0 0 0;
+}

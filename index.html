@@ -4,205 +4,190 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoja de vida</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body
-    style="
-      border: 5px solid black;
-      padding: 28px 34px;
-      margin: 18px;
-      font-family: Arial, sans-serif;
-    "
-  >
-    <h1 style="text-align: center; margin: 18px 0 22px 0; letter-spacing: 1px;">
-      HOJA DE VIDA
-    </h1>
+  <body class="cv-body">
+    <header class="cv-header">
+      <h1 class="cv-title">HOJA DE VIDA</h1>
+    </header>
 
-    <div class="data_personal">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Información Personal</h2>
+    <main class="cv-content">
+      <section class="data_personal cv-section">
+        <h2 class="section-title">Información Personal</h2>
 
-      <img
-        src="imagenes/foto.jpg"
-        alt="Mi foto"
-        style="
-          float: right;
-          width: 115px;
-          height: 150px;
-          object-fit: cover;
-          border: 3px solid black;
-          margin: 6px 20px 10px 22px;
-        "
-      />
+        <img
+          src="imagenes/foto.jpg"
+          alt="Mi foto"
+          class="profile-photo"
+        />
 
-      <h4 style="margin: 0;">Sebastián Luna Osorio</h4>
-      <h4 style="margin: 8px 0 12px 0;">
-        Regencia de Farmacia, Técnico en Sistemas, Orientador, Vendedor y Asesor Comercial
-      </h4>
+        <h4 class="personal-name">Sebastián Luna Osorio</h4>
+        <h4 class="personal-headline">
+          Regencia de Farmacia, Técnico en Sistemas, Orientador, Vendedor y Asesor Comercial
+        </h4>
 
-      <p style="margin: 6px 0; line-height: 1.35;">Correo:</p>
-      <p style="margin: 6px 0; line-height: 1.35;">Celular:</p>
-      <p style="margin: 6px 0; line-height: 1.35;">Dirección: Calle 117, Conjunto, Ibagué.</p>
-    </div>
+        <p class="personal-info">Correo:</p>
+        <p class="personal-info">Celular:</p>
+        <p class="personal-info">Dirección: Calle 117, Conjunto, Ibagué.</p>
+      </section>
 
-    <div class="perfil">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Perfil</h2>
+      <section class="perfil cv-section">
+        <h2 class="section-title">Perfil</h2>
 
-      <p 
-        Regente de farmacia, asesor comercial, mensajero, técnico en sistemas y bachiller
-        académico, estudiante de ing, sistemas. sexto semestre, serio, responsable, alta
-        motivación para laborar y servir de la mejor manera a la entidad a la que me vincule,
-        con capacidades eficientes para la aplicación de habilidades, destrezas, valores y
-        comportamientos sobre actividades productivas relacionadas con el cargo al que aspiro,
-        ya sea el área de ventas, seguridad o mensajería.
-      </p>
-      <p style="margin: 8px 0; line-height: 1.45;">
-        Cuento con mi vehículo con papeles al día listo para trabajar.
-      </p>
-    </div>
-
-    <div class="educacion">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Formación Académica</h2>
-
-      <div class="edu_item_1" style="margin: 0 0 12px 0;">
-        <h4 style="margin: 0;">Primaria</h4>
-        <p style="margin: 4px 0; line-height: 1.35;">Institución Educativa Técnica Celmira Huertas</p>
-        <p style="margin: 0;">2007</p>
-      </div>
-
-      <div class="edu_item_2" style="margin: 0 0 12px 0;">
-        <h4 style="margin: 0;">Bachiller Académico</h4>
-        <p style="margin: 4px 0; line-height: 1.35;">
-          Institución Educativa Distrital República del Ecuador
+        <p class="perfil-text">
+          Regente de farmacia, asesor comercial, mensajero, técnico en sistemas y bachiller
+          académico, estudiante de ing, sistemas. sexto semestre, serio, responsable, alta
+          motivación para laborar y servir de la mejor manera a la entidad a la que me vincule,
+          con capacidades eficientes para la aplicación de habilidades, destrezas, valores y
+          comportamientos sobre actividades productivas relacionadas con el cargo al que aspiro,
+          ya sea el área de ventas, seguridad o mensajería.
         </p>
-        <p style="margin: 0;">2013</p>
-      </div>
+        <p class="perfil-text">
+          Cuento con mi vehículo con papeles al día listo para trabajar.
+        </p>
+      </section>
 
-      <div class="edu_item_3" style="margin: 0 0 12px 0;">
-        <h4 style="margin: 0;">Técnico en Sistemas</h4>
-        <p style="margin: 4px 0; line-height: 1.35;">SENA</p>
-        <p style="margin: 0;">(Finalizado)</p>
-      </div>
+      <section class="educacion cv-section">
+        <h2 class="section-title">Formación Académica</h2>
 
-      <div class="edu_item_4" style="margin: 0 0 6px 0;">
-        <h4 style="margin: 0;">Tecnólogo en Regencia de Farmacia</h4>
-        <p style="margin: 4px 0; line-height: 1.35;">SENA</p>
-      </div>
-    </div>
+        <div class="edu_item">
+          <h4 class="edu-title">Primaria</h4>
+          <p class="edu-institution">Institución Educativa Técnica Celmira Huertas</p>
+          <p class="edu-year">2007</p>
+        </div>
 
-    <div class="educacion_complementaria">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Cursos</h2>
-
-      <div style="margin-top: 10px; line-height: 1.5;">
-        <p ▸ Operador de medios tecnológicos (FAC) — 2015</p>
-        <p ▸ Fundamentación de vigilancia (La Ciencia de la Seguridad) — 2019</p>
-        <p ▸ Reentrenamiento medios tecnológicos (La Ciencia de la Seguridad) — 2019</p>
-        <p ▸ Servicio al cliente (SENA)</p>
-        <p ▸ Gestión empresarial (SENA)</p>
-        <p ▸ Inglés nivel 1-4 (SENA)</p>
-        <p ▸ Técnico en sistemas (SENA)</p>
-        <p ▸ Tecnólogo en Regencia de farmacia (SENA) — Diploma en trámite</p>
-      </div>
-    </div>
-
-    <div class="experiencia_profesional">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Experiencia Laboral</h2>
-
-      <div class="item_1" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Orientador — IPS MEINTEGRAL S.A.S</h3>
-        <p style="margin: 0; line-height: 1.35;">01/06/2020 – 07/09/2021</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">
-            ▸ Orientar personal, pacientes y visitantes en los diferentes procesos de la clínica.
+        <div class="edu_item">
+          <h4 class="edu-title">Bachiller Académico</h4>
+          <p class="edu-institution">
+            Institución Educativa Distrital República del Ecuador
           </p>
-          <p style="margin: 4px 0;">▸ Recibir correspondencia y apoyar la atención al cliente.</p>
-          <p style="margin: 4px 0;">▸ Apoyar otras funciones asignadas por la institución.</p>
+          <p class="edu-year">2013</p>
         </div>
-      </div>
 
-      <div class="item2" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Domiciliario / Mensajero con moto — La Hacienda</h3>
-        <p style="margin: 0; line-height: 1.35;">05/05/2019 – 20/01/2020</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">▸ Compra de materiales y diligencias.</p>
-          <p style="margin: 4px 0;">▸ Envío de correspondencia y labores de mensajería.</p>
+        <div class="edu_item">
+          <h4 class="edu-title">Técnico en Sistemas</h4>
+          <p class="edu-institution">SENA</p>
+          <p class="edu-year">(Finalizado)</p>
         </div>
-        <p style="margin: 8px 0 0 0;">Jefe: — Tel:</p>
-      </div>
 
-      <div class="item3" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Guarda de seguridad — Clínica Minerva (en liquidación) / Ibagué</h3>
-        <p style="margin: 0; line-height: 1.35;">25/10/2018 – 20/02/2020</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">▸ Vigilancia y control de acceso.</p>
-          <p style="margin: 4px 0;">▸ Reporte de novedades y apoyo a procedimientos de seguridad.</p>
+        <div class="edu_item last-item">
+          <h4 class="edu-title">Tecnólogo en Regencia de Farmacia</h4>
+          <p class="edu-institution">SENA</p>
         </div>
-        <p style="margin: 8px 0 0 0;">Jefe inmediato: Dra. María Eledid — Tel:</p>
-      </div>
+      </section>
 
-      <div class="item4" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Vendedor (bebidas frappé) — Centro Comercial ACQUA</h3>
-        <p style="margin: 0; line-height: 1.35;">20/04/2018 – 16/07/2018</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">▸ Atención al cliente y ventas.</p>
-          <p style="margin: 4px 0;">▸ Preparación de productos y apoyo en caja.</p>
+      <section class="educacion_complementaria cv-section">
+        <h2 class="section-title">Cursos</h2>
+
+        <div class="curso-list">
+          <p class="curso-item">▸ Operador de medios tecnológicos (FAC) — 2015</p>
+          <p class="curso-item">▸ Fundamentación de vigilancia (La Ciencia de la Seguridad) — 2019</p>
+          <p class="curso-item">▸ Reentrenamiento medios tecnológicos (La Ciencia de la Seguridad) — 2019</p>
+          <p class="curso-item">▸ Servicio al cliente (SENA)</p>
+          <p class="curso-item">▸ Gestión empresarial (SENA)</p>
+          <p class="curso-item">▸ Inglés nivel 1-4 (SENA)</p>
+          <p class="curso-item">▸ Técnico en sistemas (SENA)</p>
+          <p class="curso-item">▸ Tecnólogo en Regencia de farmacia (SENA) — Diploma en trámite</p>
         </div>
-      </div>
+      </section>
 
-      <div class="item5" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Asesor comercial — Oriflame</h3>
-        <p style="margin: 0; line-height: 1.35;">10/02/2018 – 28/03/2018</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">▸ Venta por catálogo puerta a puerta.</p>
-          <p style="margin: 4px 0;">▸ Atención al cliente en punto de venta.</p>
+      <section class="experiencia_profesional cv-section">
+        <h2 class="section-title">Experiencia Laboral</h2>
+
+        <div class="exp-item">
+          <h3 class="exp-company-role">Orientador — IPS MEINTEGRAL S.A.S</h3>
+          <p class="exp-dates">01/06/2020 – 07/09/2021</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Orientar personal, pacientes y visitantes en los diferentes procesos de la clínica.</li>
+            <li>Recibir correspondencia y apoyar la atención al cliente.</li>
+            <li>Apoyar otras funciones asignadas por la institución.</li>
+          </ul>
         </div>
-      </div>
 
-      <div class="item6" style="margin-bottom: 18px;">
-        <h3 style="margin: 0 0 6px 0;">Auxiliar de sistemas — Fundación Hematológica Colombia</h3>
-        <p style="margin: 0; line-height: 1.35;">10/01/2017 – 09/07/2017</p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">▸ Soporte básico a usuarios y equipos.</p>
-          <p style="margin: 4px 0;">▸ Apoyo en mantenimiento y gestión de herramientas.</p>
+        <div class="exp-item">
+          <h3 class="exp-company-role">Domiciliario / Mensajero con moto — La Hacienda</h3>
+          <p class="exp-dates">05/05/2019 – 20/01/2020</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Compra de materiales y diligencias.</li>
+            <li>Envío de correspondencia y labores de mensajería.</li>
+          </ul>
+          <p class="exp-contact">Jefe: — Tel:</p>
         </div>
-      </div>
 
-      <div class="item7" style="margin-bottom: 10px;">
-        <h3 style="margin: 0 0 6px 0;">
-          Operario de medios tecnológicos (Servicio militar) — Fuerza Aérea Colombiana
-        </h3>
-        <p style="margin: 0; line-height: 1.35;">
-          CACOM 1, Puerto Salgar, Cundinamarca — 11/09/2015 – 05/04/2016
-        </p>
-        <p style="margin: 8px 0 6px 0;"><strong>Funciones:</strong></p>
-        <div style="margin-left: 12px; line-height: 1.45;">
-          <p style="margin: 4px 0;">
-            ▸ Monitorista de seguridad: control de acceso, exteriores e interiores.
+        <div class="exp-item">
+          <h3 class="exp-company-role">Guarda de seguridad — Clínica Minerva (en liquidación) / Ibagué</h3>
+          <p class="exp-dates">25/10/2018 – 20/02/2020</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Vigilancia y control de acceso.</li>
+            <li>Reporte de novedades y apoyo a procedimientos de seguridad.</li>
+          </ul>
+          <p class="exp-contact">Jefe inmediato: Dra. María Eledid — Tel:</p>
+        </div>
+
+        <div class="exp-item">
+          <h3 class="exp-company-role">Vendedor (bebidas frappé) — Centro Comercial ACQUA</h3>
+          <p class="exp-dates">20/04/2018 – 16/07/2018</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Atención al cliente y ventas.</li>
+            <li>Preparación de productos y apoyo en caja.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <h3 class="exp-company-role">Asesor comercial — Oriflame</h3>
+          <p class="exp-dates">10/02/2018 – 28/03/2018</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Venta por catálogo puerta a puerta.</li>
+            <li>Atención al cliente en punto de venta.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <h3 class="exp-company-role">Auxiliar de sistemas — Fundación Hematológica Colombia</h3>
+          <p class="exp-dates">10/01/2017 – 09/07/2017</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Soporte básico a usuarios y equipos.</li>
+            <li>Apoyo en mantenimiento y gestión de herramientas.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item last-item">
+          <h3 class="exp-company-role">
+            Operario de medios tecnológicos (Servicio militar) — Fuerza Aérea Colombiana
+          </h3>
+          <p class="exp-dates">
+            CACOM 1, Puerto Salgar, Cundinamarca — 11/09/2015 – 05/04/2016
           </p>
-          <p style="margin: 4px 0;">▸ Detección y reporte de novedades.</p>
+          <p class="exp-subtitle"><strong>Funciones:</strong></p>
+          <ul class="exp-functions-list">
+            <li>Monitorista de seguridad: control de acceso, exteriores e interiores.</li>
+            <li>Detección y reporte de novedades.</li>
+          </ul>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="referencias">
-      <h2 style="padding-bottom: 6px; margin: 22px 0 12px 0;">Referencias Personales</h2>
+      <section class="referencias cv-section">
+        <h2 class="section-title">Referencias Personales</h2>
 
-      <div style="margin-top: 10px; line-height: 1.5;">
-        <p style="margin: 4px 0;">
-          ▸ <strong>Aura</strong> — Formadora / Docente, Ministerio de Educación Nacional. Tel:
-        </p>
-        <p style="margin: 4px 0;">
-          ▸ <strong>William</strong> — Docente, INEM-Ibagué / Universidad del Tolima. Tel:
-        </p>
-        <p style="margin: 4px 0;">
-          ▸ <strong>Amparo</strong> — Administradora. Tel:
-        </p>
-      </div>
-    </div>
+        <div class="ref-list">
+          <p class="ref-item">
+            ▸ <strong>Aura</strong> — Formadora / Docente, Ministerio de Educación Nacional. Tel:
+          </p>
+          <p class="ref-item">
+            ▸ <strong>William</strong> — Docente, INEM-Ibagué / Universidad del Tolima. Tel:
+          </p>
+          <p class="ref-item">
+            ▸ <strong>Amparo</strong> — Administradora. Tel:
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
